@@ -18,7 +18,7 @@ vows.describe('hook.io/spawn/construction').addBatch({
 
       this.callback();
     },
-    "it should succeed": function(a, b) { }
+    "it should succeed": function() { }
   },
   "When hook is constructed with no config": {
     topic: function() {
@@ -28,6 +28,6 @@ vows.describe('hook.io/spawn/construction').addBatch({
 
       this.callback();
     },
-    "it should succeed": function(a, b) { }
+    "it should succeed": function() { }
   }
 }).export(module);
